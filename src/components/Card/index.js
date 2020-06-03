@@ -13,19 +13,7 @@ function MakeCard(Props) {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"></small>
-                    </Card.Footer>
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src={Props.Img2} />
-                    <Card.Body>
-                        <Card.Title>{Props.title2}</Card.Title>
-                        <Card.Text>
-                        {Props.text2}
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted"></small>
+                        <small className="text-muted">GitHub Link</small>
                     </Card.Footer>
                 </Card>
             </CardDeck>
