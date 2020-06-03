@@ -9,11 +9,15 @@ function MakeCard(Props) {
                     <Card.Body>
                         <Card.Title>{Props.title}</Card.Title>
                         <Card.Text>
-                        {Props.text}
+                            {Props.text}
                         </Card.Text>
+                        <Card.Text>
+                            <a href = {Props.githubRepo}> GitHub Repository </a>
+                        </Card.Text>
+                        <a href = {Props.deployedLink}> Deployed Website </a>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">GitHub Link</small>
+                        <small className="text-muted"></small>
                     </Card.Footer>
                 </Card>
             </CardDeck>
