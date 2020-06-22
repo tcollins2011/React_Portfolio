@@ -1,28 +1,29 @@
 import React from "react";
-import { CardDeck, Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
+import "./style.css";
+import Slider from "../slider/index.js";
 function MakeCard(Props) {
-    return(
-        <>
-           <CardDeck>
-                <Card>
-                    <Card.Img variant="top" src={Props.Img} />
-                    <Card.Body>
-                        <Card.Title>{Props.title}</Card.Title>
-                        <Card.Text>
-                            {Props.text}
-                        </Card.Text>
-                        <Card.Text>
-                            <a href = {Props.githubRepo}> GitHub Repository </a>
-                        </Card.Text>
-                        <a href = {Props.deployedLink}> Deployed Website </a>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted"></small>
-                    </Card.Footer>
-                </Card>
-            </CardDeck>
-        </>
-    )  
+  return (
+    <>
+      <Card>
+        <Slider></Slider>
+        <Card.Body>
+          <Card.Title>
+            <h3>{Props.title}</h3>
+          </Card.Title>
+          <Card.Text>
+            <p>{Props.text}</p>
+          </Card.Text>
+          <Button className="button1" href={Props.githubRepo} variant="dark">
+            GitHub Repository
+          </Button>
+          <Button className="button2" href={Props.deployedLink} variant="dark">
+            Deployed Website
+          </Button>
+        </Card.Body>
+      </Card>
+    </>
+  );
 }
 
 export default MakeCard;

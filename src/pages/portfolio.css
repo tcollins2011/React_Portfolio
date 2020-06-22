@@ -1,0 +1,10 @@
+.organizedColumn {
+  width: fit-content;
+}
+
+.Title {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  text-decoration: underline;
+}

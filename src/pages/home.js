@@ -5,8 +5,8 @@ import NavBar from "../components/Nav";
 
 function Home() {
   const props = useSpring({
-    marginTop: "25vh",
-    from: { marginTop: "-25vh" },
+    marginTop: "45vh",
+    from: { marginTop: "-45vh" },
     delay: 100,
   });
   return (
