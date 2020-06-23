@@ -1,6 +1,7 @@
 import React from "react";
-import { useCanvas } from "../../components/animation/index.js";
+import { useCanvas } from "../../components/canvas/index.js";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function App() {
   const [
@@ -22,7 +23,9 @@ function App() {
       <div className="infoCard">
         <h1>Hello, I'm Tyler Collins.</h1>
         <h2>A FullStack Web Developer</h2>
-        <button>View My Work</button>
+        <Link to="/about" className=" btn btn-primary">
+          View My Work
+        </Link>
       </div>
     </>
   );

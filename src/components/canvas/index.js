@@ -11,24 +11,11 @@ const mouse = {
 window.addEventListener("mousemove", function (event) {
   mouse.x = event.x;
   mouse.y = event.y;
-  console.log(mouse.x, mouse.y);
 });
 setInterval(function () {
   mouse.x = undefined;
   mouse.y = undefined;
 }, 200);
-
-export function draw(ctx, location) {
-  ctx.fillStyle = "red";
-  ctx.shadowColor = "blue";
-  ctx.shadowBlur = 15;
-  ctx.save();
-  ctx.translate(location.x, location.y);
-  ctx.rotate((225 * Math.PI) / 180);
-  ctx.fill();
-  // .restore(): Canvas 2D API restores the most recently saved canvas state
-  ctx.restore();
-}
 
 export function useCanvas() {
   const canvasRef = useRef(null);
@@ -73,7 +60,7 @@ export function useCanvas() {
         let x = Math.random() * canvasWidth;
         let y = Math.random() * canvasHeight;
         let size = Math.random() * 5 + 5;
-        let color = "pink";
+        let color = "white";
         let weight = 1;
         particleArray.push(new Particle(x, y, size, color, weight));
       }
