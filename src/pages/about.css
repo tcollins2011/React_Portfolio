@@ -1,0 +1,12 @@
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+.topColumn {
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: 40%;
+  margin: auto;
+}

@@ -9,7 +9,7 @@ body {
   height: 100%;
   z-index: -10;
 }
-.infoCard {
+#infoCard {
   position: absolute;
   top: 30%;
   width: 100%;

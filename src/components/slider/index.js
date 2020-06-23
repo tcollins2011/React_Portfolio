@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import "./style.css";
 import ImgComp from "../ImgComp/index.js";
-import i1 from "../images/Project1_HomePage.PNG";
-import i2 from "../images/Project1_2ndPage.PNG";
-import i3 from "../images/testImage.jpg";
 
-function Slider() {
+function Slider(Props) {
   let sliderArr = [
-    <ImgComp src={i1} />,
-    <ImgComp src={i2} />,
-    <ImgComp src={i3} />,
+    <ImgComp src={Props.i1} />,
+    <ImgComp src={Props.i2} />,
+    <ImgComp src={Props.i3} />,
   ];
   const [x, setX] = useState(0);
   const goLeft = () => {
