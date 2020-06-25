@@ -13,7 +13,7 @@ function App() {
   ] = useCanvas();
 
   return (
-    <>
+    <div className="Behind">
       <canvas
         className="canvas2"
         ref={canvasRef}
@@ -27,7 +27,7 @@ function App() {
           View My Work
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

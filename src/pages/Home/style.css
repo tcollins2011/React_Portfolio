@@ -1,5 +1,8 @@
-body {
+.Behind {
   background: black;
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 #canvas2 {
   position: absolute;

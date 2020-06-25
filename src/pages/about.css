@@ -1,16 +1,58 @@
 h1 {
   text-decoration: underline;
   text-align: center;
+  margin-bottom: 45px;
+  padding-top: 25px;
 }
 .topColumn {
   text-align: center;
 }
-
-.img-thumbnail {
-  width: 40%;
-  margin: auto;
+.topRow.row {
+  height: 25%;
 }
 
-body {
-  background: white;
+.img-thumbnail {
+  width: 35%;
+  margin: auto;
+  outline: #5085a5;
+}
+
+.img-profile {
+  padding-top: 50px;
+  margin: auto;
+  display: block;
+  width: 40%;
+}
+
+.description {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container-fluid {
+  height: 94vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #f7f9fb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #eef2f3,
+    #f7f9fb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #eef2f3,
+    #f7f9fb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.link {
+  height: 4%;
+  width: 30%;
+}
+
+.socialLinks {
+  color: azure;
+  margin: auto;
+  width: 75%;
 }

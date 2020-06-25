@@ -29,7 +29,7 @@ function Portfolio() {
       <NavBar></NavBar>
       <Container fluid>
         <h1 className="Title">Projects</h1>
-        <Row>
+        <Row md={6}>
           <Col xs={12} md={6} lg={4} className="organizedColumn">
             {Projects.slice(0, 1).map((project) => {
               return (
@@ -88,7 +88,7 @@ function Portfolio() {
             })}
           </Col>
         </Row>
-        <Row>
+        <Row md={6}>
           <Col xs={12} md={6} lg={4} className="organizedColumn">
             {Projects.slice(3, 4).map((project) => {
               return (

@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Portfolio from "./pages/portfolio";
 import Home from "./pages/Home/index";
 import Animation from "./pages/Home/index";
+import FormArea from "./pages/form";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/slide" component={Animation} />
+        <Route exact path="/contact" component={FormArea} />
         <Route component={Home} />
       </Switch>
     </Router>

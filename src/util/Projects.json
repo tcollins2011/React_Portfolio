@@ -7,7 +7,7 @@
     "image2": "https://via.placeholder.com/350x150",
     "image3": "https://via.placeholder.com/350x150",
     "id": 1,
-    "text": "React | Auth0 | BLAST API | MongoDB "
+    "text": "React | Auth0 | BLAST API | MongoDB| ReactBootstrap "
   },
   {
     "title": "Denver Biz",
@@ -20,14 +20,14 @@
     "text": "MySql | Handlebars| JQuery"
   },
   {
-    "title": "Denver Biz",
+    "title": "Rosalind",
     "deployed_link": "https://hidden-plains-43611.herokuapp.com/",
     "github_repo": "https://github.com/vanessathi/project2",
     "image1": "https://via.placeholder.com/350x450",
     "image2": "https://via.placeholder.com/350x450",
     "image3": "https://via.placeholder.com/350x450",
     "id": 3,
-    "text": "MySql | Handlebars| JQuery"
+    "text": "Python | Algorithms "
   },
   {
     "title": "Denver Biz",

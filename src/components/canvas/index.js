@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 export const canvasWidth = window.innerWidth;
 export const canvasHeight = window.innerHeight;
 let particleArray = [];
-const numberOfParticles = 200;
+const numberOfParticles = 150;
 const mouse = {
   x: null,
   y: null,

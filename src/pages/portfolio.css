@@ -1,5 +1,7 @@
 .organizedColumn {
   width: fit-content;
+  position: relative;
+  height: 45vh;
 }
 
 .Title {
@@ -7,4 +9,13 @@
   margin: auto;
   position: relative;
   text-decoration: underline;
+}
+
+.row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.col {
+  position: relative;
 }
