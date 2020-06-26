@@ -3,10 +3,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/about";
-import Portfolio from "./pages/portfolio";
 import Home from "./pages/Home/index";
 import Animation from "./pages/Home/index";
 import FormArea from "./pages/form";
+import Portfolio from "./pages//Portfolio/index";
 
 function App() {
   return (

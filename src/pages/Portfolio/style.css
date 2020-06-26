@@ -1,0 +1,131 @@
+.organizedColumn {
+  width: fit-content;
+  position: relative;
+  height: 27vh;
+  margin: 0;
+  padding: 0;
+}
+
+.mainTitle {
+  margin: 25px;
+}
+.container-fluid {
+  width: 66vw;
+  margin-left: 17vw;
+  padding: 0px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  height: 35vh;
+}
+
+.modal-header {
+  height: 36vh;
+}
+@keyframes slideUp {
+  from {
+    margin-top: 20%;
+  }
+  to {
+    margin-bottom: 25%;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    margin-bottom: 50%;
+    height: 70%;
+  }
+  to {
+    margin-top: 24%;
+    height: 100%;
+  }
+}
+
+.title {
+  font-size: large;
+  text-align: center;
+}
+
+.textArea {
+  font-size: small;
+  margin-top: 10px;
+  text-align: center;
+}
+.displayImg {
+  width: 100%;
+  height: 100%;
+}
+
+.cardInfo {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.Holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Holder .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: none;
+}
+
+.Holder .cardInfo {
+  display: none;
+}
+
+.Holder.btn:hover {
+  display: block;
+}
+.Hovered {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Hovered .btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+}
+
+.Hovered .cardInfo {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+}
+
+.Hovered .displayImg {
+  opacity: 0;
+  transition-duration: 0.25s;
+}
