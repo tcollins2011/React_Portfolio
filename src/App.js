@@ -10,7 +10,7 @@ import Portfolio from "./pages//Portfolio/index";
 
 function App() {
   return (
-    <HashRouter basename={"/"}>
+    <HashRouter basename="/">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
