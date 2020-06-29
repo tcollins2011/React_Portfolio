@@ -30,7 +30,7 @@ h1 {
 }
 
 .container-fluid {
-  height: 94vh;
+  height: 100%;
   padding-left: 10%;
   padding-right: 10%;
   background: #f7f9fb; /* fallback for old browsers */

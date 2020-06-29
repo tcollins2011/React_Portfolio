@@ -31,7 +31,7 @@ function About() {
                 className="img-thumbnail"
               ></Image>
               <h2>React</h2>
-              <p>Experience working with React Hooks.</p>
+              <p></p>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={3} className="topColumn">
@@ -48,7 +48,7 @@ function About() {
                 className="img-thumbnail"
               ></Image>
               <h2>Python</h2>
-              <p>Experience working with React Hooks.</p>
+              <p></p>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={3} className="topColumn">
@@ -65,7 +65,7 @@ function About() {
                 className="img-thumbnail"
               ></Image>
               <h2>JavaScript</h2>
-              <p>Experience working with React Hooks.</p>
+              <p></p>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={3} className="topColumn">
@@ -82,7 +82,7 @@ function About() {
                 className="img-thumbnail"
               ></Image>
               <h2>Express</h2>
-              <p>Experience working with React Hooks.</p>
+              <p></p>
             </Card>
           </Col>
         </Row>
@@ -116,16 +116,15 @@ function About() {
           <Col xs={12} md={6} lg={6} className="description">
             <h2>Who's this guy?</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ut,
-              at minus voluptatem fuga quas, quis repudiandae est obcaecati
-              similique fugit odio deleniti excepturi dolorem ratione vero
-              facilis soluta repellat reiciendis ipsa a amet.
+              I'm a new developer who has been focusing on full stack
+              applications in Denver,Co. I have a passion for learning new
+              technologies and trying to integrate and use them in my
+              programming.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ut,
-              at minus voluptatem fuga quas, quis repudiandae est obcaecati
-              similique fugit odio deleniti excepturi dolorem ratione vero
-              facilis soluta repellat reiciendis ipsa a amet.
+              Recently, I have been focusing on learning React and working on a
+              chatbot based in python that responds to a user using
+              deep-learning AI.
             </p>
           </Col>
         </Row>

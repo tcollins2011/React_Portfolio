@@ -32,7 +32,7 @@ const modalText = {
     i3: image3,
     text:
       "Learn Blast offers a basic understanding and explanation of how a BLAST search is run. A react site that features basic BLAST calls and explanations.",
-    deployed_link: "In development",
+    deployed_link: "https://glacial-gorge-33859.herokuapp.com/",
     github_repo: "https://github.com/tcollins2011/BLAST_Project_3",
   },
   denBiz: {
@@ -48,12 +48,12 @@ const modalText = {
     github_repo: "https://github.com/vanessathi/project2",
   },
   quiz: {
-    title: "Which Planet are you From?",
+    title: "Planet Quiz",
     languages: "Jquery | Api Calls",
     tag: "Clickbait Quiz",
-    i1: image7,
-    i2: image8,
-    i3: image9,
+    i1: image13,
+    i2: image14,
+    i3: image15,
     text:
       "A fun and short quiz that takes in a variety of answers and then informs you of which planet you are from. It was an early project utilizing API calls and basic javascript logic.",
     deployed_link: "https://tcollins2011.github.io/Project_1/",
@@ -63,9 +63,9 @@ const modalText = {
     title: "Workout Tracker",
     languages: "MongoDb",
     tag: "Workout Analytics",
-    i1: image10,
-    i2: image11,
-    i3: image12,
+    i1: image16,
+    i2: image17,
+    i3: image18,
     text:
       "Workout Tracker allows a user to input their workout information and will provide them visual data representations of what they accomplished. A small project that utilizes MongoDB calls and basic graphing principles.",
     deployed_link: "https://protected-crag-77656.herokuapp.com/",
@@ -74,20 +74,20 @@ const modalText = {
   rosalind: {
     title: "Bioinformatics Algorithms",
     languages: "Python | Algorithms",
-    tag:
+    tag: "Bioinformatics Problems",
+    i1: image7,
+    i2: image8,
+    i3: image9,
+    text:
       "A series of algorithms that solved questions posed by http://rosalind.info/problems/locations/. These algorithms are all written in python and address common biological questions that require computer programming.",
-    i1: image13,
-    i2: image14,
-    i3: image15,
-    text: "",
   },
   burger: {
     title: "Burger Devourer",
     languages: "Express | Jquery",
     tag: "Object Maker",
-    i1: image16,
-    i2: image17,
-    i3: image18,
+    i1: image10,
+    i2: image11,
+    i3: image12,
     text:
       "A site that allows you to create and devour burgers. An early foray in to a complete backend and frontend site.",
   },

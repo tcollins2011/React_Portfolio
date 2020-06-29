@@ -18,7 +18,7 @@ function Example(props) {
         <h3 className="title">{props.project.title}</h3>
         <h4 className="textArea">{props.project.languages}</h4>
       </div>
-      <button onClick={handleShow} className="btn">
+      <button onClick={handleShow} className="cardBtn">
         Learn More
       </button>
       <Modal

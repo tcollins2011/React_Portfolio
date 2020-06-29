@@ -4,7 +4,7 @@ import NavBar from "../components/Nav";
 
 function FormPage() {
   return (
-    <>
+    <div className="page">
       <NavBar></NavBar>
       <form className="contact-form" method="POST" action="/contact">
         <div className="form-field">
@@ -43,7 +43,7 @@ function FormPage() {
           )}
         </div>
       </form>
-    </>
+    </div>
   );
 }
 
