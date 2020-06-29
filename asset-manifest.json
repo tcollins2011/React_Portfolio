@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.6260ca64.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.2f2f7008.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.2f2f7008.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.bcb768a8.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.bcb768a8.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.148a61df.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.148a61df.js.map",
     "static/css/2.af3c1da9.chunk.css": "/React_Portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c350fbea.chunk.js": "/React_Portfolio/static/js/2.c350fbea.chunk.js",
-    "static/js/2.c350fbea.chunk.js.map": "/React_Portfolio/static/js/2.c350fbea.chunk.js.map",
+    "static/js/2.0b7e7d0c.chunk.js": "/React_Portfolio/static/js/2.0b7e7d0c.chunk.js",
+    "static/js/2.0b7e7d0c.chunk.js.map": "/React_Portfolio/static/js/2.0b7e7d0c.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.c8866bf7b104f73a9eeda93711cf91af.js": "/React_Portfolio/precache-manifest.c8866bf7b104f73a9eeda93711cf91af.js",
+    "precache-manifest.e6afd161277dd84919fc8ae6833dadcd.js": "/React_Portfolio/precache-manifest.e6afd161277dd84919fc8ae6833dadcd.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/React_Portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.6260ca64.chunk.css.map": "/React_Portfolio/static/css/main.6260ca64.chunk.css.map",
-    "static/js/2.c350fbea.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.c350fbea.chunk.js.LICENSE.txt",
+    "static/js/2.0b7e7d0c.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.0b7e7d0c.chunk.js.LICENSE.txt",
     "static/media/Blast_1.PNG": "/React_Portfolio/static/media/Blast_1.8a5ead88.PNG",
     "static/media/Blast_2.PNG": "/React_Portfolio/static/media/Blast_2.a9b21153.PNG",
     "static/media/Blast_3.PNG": "/React_Portfolio/static/media/Blast_3.11c5396d.PNG",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.148a61df.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c350fbea.chunk.js",
+    "static/js/2.0b7e7d0c.chunk.js",
     "static/css/main.6260ca64.chunk.css",
-    "static/js/main.2f2f7008.chunk.js"
+    "static/js/main.bcb768a8.chunk.js"
   ]
 }
