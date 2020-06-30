@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Carousel from "../slider/index.js";
 import "./style.css";
 function Example(props) {
@@ -89,6 +90,12 @@ function Example(props) {
         </Modal.Header>
         <Modal.Title>{modalText.project.title}</Modal.Title>
         <Modal.Body>{modalText.discover.detail}</Modal.Body>
+        <Link to="/about" className=" btn btn-primary">
+          View My Work
+        </Link>
+        <Link to="/about" className=" btn btn-primary">
+          View My Work
+        </Link>
         <Button variant="secondary" onClick={handleClose}>
           X
         </Button>

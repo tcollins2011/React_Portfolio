@@ -39,9 +39,29 @@ function Example(props) {
         <Modal.Title>{props.project.title}</Modal.Title>
         <Modal.Title>{props.project.tag}</Modal.Title>
         <Modal.Body>{props.project.text}</Modal.Body>
-        <Button variant="secondary" onClick={handleClose}>
-          X
-        </Button>
+        <div>
+          <Button
+            target="_blank"
+            href={props.project.deployed_link}
+            className=" btn btn-primary"
+          >
+            Deployed Site
+          </Button>
+          <Button
+            target="_blank"
+            href={props.project.github_repo}
+            className=" btn btn-primary"
+          >
+            Github
+          </Button>
+          <Button
+            className="modalClose"
+            variant="secondary"
+            onClick={handleClose}
+          >
+            X
+          </Button>
+        </div>
       </Modal>
     </div>
   );

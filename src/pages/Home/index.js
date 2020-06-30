@@ -23,7 +23,7 @@ function App() {
       <div className="infoCard">
         <h1>Hello, I'm Tyler Collins.</h1>
         <h2>A FullStack Web Developer</h2>
-        <Link to="/about" className=" btn btn-primary">
+        <Link to="/portfolio" className=" btn btn-primary">
           View My Work
         </Link>
       </div>
