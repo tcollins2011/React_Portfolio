@@ -37,25 +37,25 @@ function Example(props) {
           ></Carousel>
         </Modal.Header>
         <Modal.Title>{props.project.title}</Modal.Title>
-        <Modal.Title>{props.project.tag}</Modal.Title>
+        <Modal.Title className="tag">{props.project.tag}</Modal.Title>
         <Modal.Body>{props.project.text}</Modal.Body>
         <div>
           <Button
             target="_blank"
             href={props.project.deployed_link}
-            className=" btn btn-primary"
+            className=" btn btn-primary modalBtn"
           >
             Deployed Site
           </Button>
           <Button
             target="_blank"
             href={props.project.github_repo}
-            className=" btn btn-primary"
+            className=" btn btn-primary modalBtn"
           >
             Github
           </Button>
           <Button
-            className="modalClose"
+            className="modalClose modalBtn"
             variant="secondary"
             onClick={handleClose}
           >
