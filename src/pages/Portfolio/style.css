@@ -46,12 +46,10 @@
 
 @keyframes slideDown {
   from {
-    margin-bottom: 50%;
-    height: 70%;
+    margin-top: -20%;
   }
   to {
-    margin-top: 24%;
-    height: 100%;
+    margin-bottom: 25%;
   }
 }
 
@@ -78,7 +76,6 @@
 
 .textArea {
   font-size: medium;
-  margin-top: 10px;
   text-align: center;
   color: #5085a5;
 }
@@ -87,13 +84,13 @@
   height: 100%;
 }
 
-.cardInfo {
+/* .cardInfo {
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
+} */
 
 .Holder {
   position: relative;
@@ -148,6 +145,11 @@
 .Hovered .cardInfo {
   animation-name: slideDown;
   animation-duration: 0.5s;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .Hovered .displayImg {
