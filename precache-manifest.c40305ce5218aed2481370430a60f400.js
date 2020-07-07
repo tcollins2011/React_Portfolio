@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "228f7f04452ed7d5a7bba93031e4594f",
+    "revision": "b22578d60013b740e617c06b21312141",
     "url": "/React_Portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "ff356e93e3ea514b1fbe",
-    "url": "/React_Portfolio/static/css/main.53290d19.chunk.css"
+    "revision": "4a32261c033e7e7546a0",
+    "url": "/React_Portfolio/static/css/main.890ee2e2.chunk.css"
   },
   {
     "revision": "23bfef725934f37ee59f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.41911c46.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff356e93e3ea514b1fbe",
-    "url": "/React_Portfolio/static/js/main.b895e855.chunk.js"
+    "revision": "4a32261c033e7e7546a0",
+    "url": "/React_Portfolio/static/js/main.62730471.chunk.js"
   },
   {
     "revision": "7107e4fc0d69afe2bc27",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "11c5396d763c1db7e51ea12e1bf95974",
     "url": "/React_Portfolio/static/media/Blast_3.11c5396d.PNG"
+  },
+  {
+    "revision": "7c858a3d2c53a2af761e9cfb11446130",
+    "url": "/React_Portfolio/static/media/Burger_1.7c858a3d.PNG"
   },
   {
     "revision": "b2ec8af08ba2fa8f26e3de914b83555e",
@@ -100,20 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/React.38d556c7.PNG"
   },
   {
-    "revision": "5a5b832de2b4d5ce9266bda60a59dafa",
-    "url": "/React_Portfolio/static/media/TestImage_1.5a5b832d.PNG"
+    "revision": "f7eb5455d20f5ad12b2784f4754391e4",
+    "url": "/React_Portfolio/static/media/Rosalind_1.f7eb5455.PNG"
   },
   {
-    "revision": "c84e22be79df8a3ad3c238d08400bb47",
-    "url": "/React_Portfolio/static/media/TestImage_2.c84e22be.PNG"
+    "revision": "bdd7fe5fa70d052cc72e03bf1cc866bf",
+    "url": "/React_Portfolio/static/media/Rosalind_2.bdd7fe5f.PNG"
   },
   {
-    "revision": "91c0e1e9d54306d7d44be292adef8ad8",
-    "url": "/React_Portfolio/static/media/TestImage_3.91c0e1e9.PNG"
-  },
-  {
-    "revision": "9d2f85f275f2be64578eaa608cf82351",
-    "url": "/React_Portfolio/static/media/TestImage_4.9d2f85f2.PNG"
+    "revision": "0ed65045934c1295e55dde872e93deb7",
+    "url": "/React_Portfolio/static/media/Rosalind_3.0ed65045.PNG"
   },
   {
     "revision": "38744d889dcbc2808d4849917a79381f",
