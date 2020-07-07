@@ -9,10 +9,10 @@ import image3 from "../../components/images/Blast_3.PNG";
 import image4 from "../../components/images/DenBiz_1.PNG";
 import image5 from "../../components/images/DenBiz_2.PNG";
 import image6 from "../../components/images/DenBiz_3.PNG";
-import image7 from "../../components/images/TestImage_1.PNG";
-import image8 from "../../components/images/TestImage_2.PNG";
-import image9 from "../../components/images/TestImage_3.PNG";
-import image10 from "../../components/images/TestImage_4.PNG";
+import image7 from "../../components/images/Rosalind_1.PNG";
+import image8 from "../../components/images/Rosalind_2.PNG";
+import image9 from "../../components/images/Rosalind_3.PNG";
+import image10 from "../../components/images/Burger_1.PNG";
 import image11 from "../../components/images/TestImage_5.PNG";
 import image12 from "../../components/images/TestImage_6.PNG";
 import image13 from "../../components/images/Project1_HomePage.PNG";
@@ -80,6 +80,7 @@ const modalText = {
     i3: image9,
     text:
       "A series of algorithms that solved questions posed by http://rosalind.info/problems/locations/. These algorithms are all written in python and address common biological questions that require computer programming.",
+    github_repo: "https://github.com/tcollins2011/rosalind",
   },
   burger: {
     title: "Burger Devourer",
@@ -90,6 +91,8 @@ const modalText = {
     i3: image12,
     text:
       "A site that allows you to create and devour burgers. An early foray in to a complete backend and frontend site.",
+    github_repo: "https://github.com/tcollins2011/Workout_Tracker",
+    deployed_link: "https://github.com/tcollins2011/Node_Express_Handlebars",
   },
 };
 function Portfolio() {

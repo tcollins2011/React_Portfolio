@@ -22,6 +22,9 @@
   margin: 0;
   padding: 0;
 }
+.modalTitle {
+  margin-left: 10px;
+}
 .tag {
   color: #5085a5;
   font-size: medium;
@@ -69,12 +72,12 @@
   outline-color: #5085a5;
 }
 .title {
-  font-size: x-large;
+  font-size: larger;
   text-align: center;
 }
 
 .textArea {
-  font-size: large;
+  font-size: medium;
   margin-top: 10px;
   text-align: center;
   color: #5085a5;

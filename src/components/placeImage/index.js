@@ -36,7 +36,7 @@ function Example(props) {
             i3={props.project.i3}
           ></Carousel>
         </Modal.Header>
-        <Modal.Title>{props.project.title}</Modal.Title>
+        <Modal.Title className="modalTitle">{props.project.title}</Modal.Title>
         <Modal.Title className="tag">{props.project.tag}</Modal.Title>
         <Modal.Body>{props.project.text}</Modal.Body>
         <div>
