@@ -21,6 +21,12 @@ import image15 from "../../components/images/Project1_3rdPage.PNG";
 import image16 from "../../components/images/Fitness_1.PNG";
 import image17 from "../../components/images/Fitness_2.PNG";
 import image18 from "../../components/images/Fitness_3.PNG";
+import image19 from "../../components/images/Multiplayer_Game_1.PNG";
+import image20 from "../../components/images/Multiplayer_Game_2.PNG";
+import image21 from "../../components/images/Multiplayer_Game_3.PNG";
+import image22 from "../../components/images/Path_Finder_1.PNG";
+import image23 from "../../components/images/Path_Finder_2.PNG";
+import image24 from "../../components/images/Path_Finder_3.PNG";
 
 const modalText = {
   blast: {
@@ -94,6 +100,29 @@ const modalText = {
     github_repo: "https://github.com/tcollins2011/Workout_Tracker",
     deployed_link: "https://github.com/tcollins2011/Node_Express_Handlebars",
   },
+  pathFinding: {
+    title: "PathFinding Algorithms",
+    languages: "Python",
+    tag: "Finds the shortest path",
+    i1: image22,
+    i2: image23,
+    i3: image24,
+    text:
+      "This project displays a functional A* and Dijkstra pathfinding algorithm. These algorithms can be seen visually through a pygame GUI. ",
+    github_repo: "https://github.com/tcollins2011/PathFinding",
+  },
+  multiplayerGame: {
+    title: "Beholder War",
+    languages: "Javascript | Socket.io | Express",
+    tag: "Multiplayer Shooter game",
+    i1: image19,
+    i2: image20,
+    i3: image21,
+    text:
+      "A multiplayer shooting game that allows users to chat and play a basic game.",
+    github_repo: "https://github.com/tcollins2011/Node_Js_Mulitplayer_Game",
+    deployed_link: "https://abracadabrant-madame-91378.herokuapp.com/",
+  },
 };
 function Portfolio() {
   return (
@@ -110,7 +139,7 @@ function Portfolio() {
           </Col>
 
           <Col xs={12} md={6} lg={4} className="organizedColumn">
-            <Example project={modalText.quiz}></Example>
+            <Example project={modalText.multiplayerGame}></Example>
           </Col>
         </Row>
         <Row md={6}>
@@ -123,7 +152,7 @@ function Portfolio() {
           </Col>
 
           <Col xs={12} md={6} lg={4} className="organizedColumn">
-            <Example project={modalText.burger}></Example>
+            <Example project={modalText.pathFinding}></Example>
           </Col>
         </Row>
       </Container>
