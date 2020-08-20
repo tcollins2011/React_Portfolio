@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Container, Row, Col, Card } from "react-bootstrap";
-import image from "../components/images/Profile.PNG";
+import image from "../components/images/Profile.jpg";
 import express from "../components/images/express.PNG";
 import javascript from "../components/images/Javascript.PNG";
 import python from "../components/images/Python.PNG";
