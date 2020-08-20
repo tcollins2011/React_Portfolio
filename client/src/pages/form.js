@@ -1,30 +1,59 @@
 import React from "react";
 import "./form.css";
 import NavBar from "../components/Nav";
+import { useForm } from "react-hook-form";
+import API from "../utils/API";
 
 function FormPage() {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => {
+    API.sendEmail(data)
+      .then(console.log("done"))
+      .catch((err) => console.log(err));
+  };
   return (
     <div className="page">
       <NavBar></NavBar>
-      <form className="contact-form" method="POST" action="/contact">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="contact-form"
+        // method="POST"
+        // action="/api/nodeMail"
+      >
         <div className="form-field">
           <label htmlFor="name">
             <div className="label-content">Name:</div>
-            <input type="text" name="name" required />
+            <input
+              type="text"
+              name="name"
+              ref={register({ required: true })}
+              required
+            />
           </label>
         </div>
 
         <div className="form-field">
           <label htmlFor="email">
             <div className="label-content">Email:</div>
-            <input type="email" name="email" required />
+            <input
+              type="email"
+              name="email"
+              ref={register({ required: true })}
+              required
+            />
           </label>
         </div>
 
         <div className="form-field">
           <label htmlFor="message">
             <div className="label-content">Message:</div>
-            <textarea className="stretch" name="message" rows="5" required />
+            <textarea
+              className="stretch"
+              name="message"
+              rows="5"
+              ref={register({ required: true })}
+              required
+            />
           </label>
         </div>
 
